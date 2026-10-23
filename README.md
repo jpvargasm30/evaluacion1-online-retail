@@ -59,3 +59,21 @@ git commit -m "Evaluacion 1: auditoria reproducible Online Retail"
 El dataset original puede mantenerse fuera del repositorio y descargarse desde el pipeline. Comprobar tamaño de CSV antes de subirlos a GitHub.
 
 **Referencia:** Chen, D. (2015). *Online Retail*. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33
+
+## Informe final de la evaluación
+
+**Estudiante:** Juan Pablo Vargas
+
+**Informe PDF definitivo:** `report/reporte_Juan_Pablo_Vargas.pdf`
+
+Este documento contiene la portada, el índice independiente,
+los resultados del análisis, las visualizaciones y las conclusiones.
+
+El archivo `report/reporte.md` es generado automáticamente por
+`scripts/reporte.py` y contiene los resultados y la metodología
+en formato Markdown.
+
+El PDF definitivo presenta esos resultados con una maquetación
+académica personalizada. La ejecución de `scripts/pipeline.sh`
+regenera el informe automático, pero no reproduce exactamente
+el diseño del PDF definitivo.
