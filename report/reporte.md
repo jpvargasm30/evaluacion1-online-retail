@@ -4,7 +4,7 @@
 **Auditoría de ventas reales desde la línea de comandos**  
 **Asignatura:** Ciencia de Datos en la Terminal Linux  
 **Profesor:** Luis Gómez  
-**Analista:** [COMPLETAR NOMBRE]  
+**Analista:** Juan Pablo Vargas  
 **Fecha:** 22 de octubre de 2026
 
 ---

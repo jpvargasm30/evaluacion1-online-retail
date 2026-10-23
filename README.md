@@ -18,7 +18,6 @@ El script descarga `Online Retail.xlsx` de UCI, hace la conversión con `in2csv`
 * Requiere Internet la primera vez, espacio libre y Python instalado en Ubuntu.
 * No requiere Docker porque la pauta acepta terminal Linux; es más sencillo instalar librerías en un entorno virtual local.
 * Si la descarga ya existe en `data/online_retail.zip`, se reutiliza.
-* Modifica el marcador **`[COMPLETAR NOMBRE]`** del reporte y el rótulo del analista en el script de factura para personalizar, y vuelve a ejecutar el pipeline para generar el PDF actualizado. Evita editar solo el PDF pues se regenera.
 * Debes revisar/interpretar todos los resultados, decisiones de exclusión y posibles limitaciones antes de entregar como trabajo propio.
 
 ## Organización
@@ -52,7 +51,7 @@ git add README.md requirements.txt .gitignore scripts report
 git commit -m "Evaluacion 1: auditoria reproducible Online Retail"
 # crea un repositorio vacío en GitHub, luego:
 # git branch -M main
-# git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
+# git remote add origin https://github.com/jpvargasm30/evaluacion1-online-retail.git
 # git push -u origin main
 ```
 

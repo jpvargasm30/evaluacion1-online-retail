@@ -1,6 +1,6 @@
 ONLINE RETAIL - FACTURA DE AUDITORÍA
 ==================================
-Analista: trabajo académico (reemplazar con nombre del estudiante)
+Analista: Juan Pablo Vargas
 Fuente: UCI Online Retail (Chen, 2015)
 Ingreso neto por ventas válidas: £10,247,905.13
 País con mayor ingreso: United Kingdom (£8,725,129.48)

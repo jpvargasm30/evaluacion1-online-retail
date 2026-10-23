@@ -15,7 +15,7 @@ cancel=sum(abs(float(r['Revenue'])) for r in excluded if r['ExclusionReason']=='
 pct=100*cancel/(cancel+net) if cancel+net else 0
 text=f'''ONLINE RETAIL - FACTURA DE AUDITORÍA
 ==================================
-Analista: trabajo académico (reemplazar con nombre del estudiante)
+Analista: Juan Pablo Vargas
 Fuente: UCI Online Retail (Chen, 2015)
 Ingreso neto por ventas válidas: £{net:,.2f}
 País con mayor ingreso: {top_country} (£{top[top_country]:,.2f})
