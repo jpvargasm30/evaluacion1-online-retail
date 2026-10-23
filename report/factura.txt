@@ -1,0 +1,10 @@
+ONLINE RETAIL - FACTURA DE AUDITORÍA
+==================================
+Analista: trabajo académico (reemplazar con nombre del estudiante)
+Fuente: UCI Online Retail (Chen, 2015)
+Ingreso neto por ventas válidas: £10,247,905.13
+País con mayor ingreso: United Kingdom (£8,725,129.48)
+Monto absoluto de cancelaciones: £893,979.73
+Cancelaciones sobre ingreso bruto operativo: 8.02%
+Definición: bruto operativo = ventas válidas + valor absoluto de facturas C negativas.
+Las exclusiones no comerciales no se consideran cancelaciones.

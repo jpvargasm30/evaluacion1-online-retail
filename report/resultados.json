@@ -1,0 +1,527 @@
+{
+  "n_original": 541909,
+  "n_clean": 522568,
+  "n_excluded": 19341,
+  "missing": {
+    "InvoiceNo": 0,
+    "StockCode": 0,
+    "Description": 1454,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "UnitPrice": 0,
+    "CustomerID": 135080,
+    "Country": 0
+  },
+  "raw_anomalies": {
+    "duplicados_exactos": 5268,
+    "facturas_canceladas": 9288,
+    "cantidad_no_positiva": 10624,
+    "precio_no_positivo": 2517,
+    "codigos_no_producto": 2916,
+    "descripcion_vacia": 1454,
+    "cliente_no_identificado": 135080,
+    "atipicos_quantity_IQR": 58619,
+    "atipicos_unitprice_IQR": 39627
+  },
+  "bounds": {
+    "Quantity": {
+      "q1": 1.0,
+      "q3": 10.0,
+      "lower": -12.5,
+      "upper": 23.5
+    },
+    "UnitPrice": {
+      "q1": 1.25,
+      "q3": 4.13,
+      "lower": -3.0700000000000003,
+      "upper": 8.45
+    }
+  },
+  "stages": [
+    {
+      "criterio": "Duplicado exacto",
+      "excluidas": 5268,
+      "restantes": 536641
+    },
+    {
+      "criterio": "Cancelación",
+      "excluidas": 9251,
+      "restantes": 527390
+    },
+    {
+      "criterio": "Cantidad inválida o <= 0",
+      "excluidas": 1336,
+      "restantes": 526054
+    },
+    {
+      "criterio": "Precio inválido o <= 0",
+      "excluidas": 1176,
+      "restantes": 524878
+    },
+    {
+      "criterio": "Código no comercial",
+      "excluidas": 2310,
+      "restantes": 522568
+    },
+    {
+      "criterio": "Descripción faltante",
+      "excluidas": 0,
+      "restantes": 522568
+    },
+    {
+      "criterio": "Fecha inválida",
+      "excluidas": 0,
+      "restantes": 522568
+    }
+  ],
+  "net_income": 10247905.13,
+  "cancelled_abs": 893979.73,
+  "gross_operational": 11141884.860000001,
+  "pct_cancelled": 8.023595120870779,
+  "invoices": 19773,
+  "customers": 4334,
+  "products": 3912,
+  "unidentified_sales": 131418,
+  "unidentified_revenue": 1510677.49,
+  "country_income": [
+    [
+      "United Kingdom",
+      8725129.480001703
+    ],
+    [
+      "Netherlands",
+      283889.3399999999
+    ],
+    [
+      "EIRE",
+      270850.85999999824
+    ],
+    [
+      "Germany",
+      205381.14999999892
+    ],
+    [
+      "France",
+      184492.99999999988
+    ],
+    [
+      "Australia",
+      138103.80999999962
+    ],
+    [
+      "Spain",
+      55706.56
+    ],
+    [
+      "Switzerland",
+      53065.6000000001
+    ],
+    [
+      "Japan",
+      37416.37000000001
+    ],
+    [
+      "Belgium",
+      36927.339999999975
+    ],
+    [
+      "Sweden",
+      36828.83000000001
+    ],
+    [
+      "Norway",
+      32454.640000000025
+    ],
+    [
+      "Portugal",
+      26951.11
+    ],
+    [
+      "Channel Islands",
+      19997.53999999996
+    ],
+    [
+      "Finland",
+      18344.879999999972
+    ],
+    [
+      "Denmark",
+      18211.339999999993
+    ],
+    [
+      "Italy",
+      15820.24000000001
+    ],
+    [
+      "Cyprus",
+      13167.16
+    ],
+    [
+      "Hong Kong",
+      9744.190000000002
+    ],
+    [
+      "Singapore",
+      9120.390000000001
+    ],
+    [
+      "Austria",
+      8742.679999999998
+    ],
+    [
+      "Israel",
+      8129.409999999994
+    ],
+    [
+      "Poland",
+      6974.649999999998
+    ],
+    [
+      "Unspecified",
+      4740.939999999996
+    ],
+    [
+      "Greece",
+      4425.5199999999995
+    ],
+    [
+      "Iceland",
+      4309.999999999997
+    ],
+    [
+      "USA",
+      3580.3900000000012
+    ],
+    [
+      "Canada",
+      3115.440000000001
+    ],
+    [
+      "Malta",
+      2070.5900000000006
+    ],
+    [
+      "United Arab Emirates",
+      1864.7800000000007
+    ],
+    [
+      "Lebanon",
+      1693.8800000000003
+    ],
+    [
+      "Lithuania",
+      1661.06
+    ],
+    [
+      "European Community",
+      1159.25
+    ],
+    [
+      "Brazil",
+      1143.6000000000001
+    ],
+    [
+      "RSA",
+      1002.3099999999998
+    ],
+    [
+      "Czech Republic",
+      786.7400000000001
+    ],
+    [
+      "Bahrain",
+      754.1400000000001
+    ],
+    [
+      "Saudi Arabia",
+      145.92
+    ]
+  ],
+  "month_income": [
+    [
+      "2011-11",
+      1452115.979999753
+    ],
+    [
+      "2011-10",
+      1103330.9199999452
+    ],
+    [
+      "2011-09",
+      1028345.38000001
+    ],
+    [
+      "2010-12",
+      775714.949999969
+    ],
+    [
+      "2011-05",
+      740036.3300000102
+    ],
+    [
+      "2011-06",
+      737683.9900000239
+    ],
+    [
+      "2011-08",
+      724308.1600000166
+    ],
+    [
+      "2011-03",
+      689841.8400000187
+    ],
+    [
+      "2011-07",
+      688252.6700000305
+    ],
+    [
+      "2011-01",
+      670439.4600000122
+    ],
+    [
+      "2011-12",
+      614499.2500000119
+    ],
+    [
+      "2011-04",
+      515469.6600000257
+    ],
+    [
+      "2011-02",
+      507866.5400000274
+    ]
+  ],
+  "hour_income": [
+    [
+      "6",
+      4.25
+    ],
+    [
+      "7",
+      30469.209999999974
+    ],
+    [
+      "8",
+      279297.6799999981
+    ],
+    [
+      "9",
+      955760.1600000146
+    ],
+    [
+      "10",
+      1401791.3999999762
+    ],
+    [
+      "11",
+      1196812.549999946
+    ],
+    [
+      "12",
+      1412921.3199998904
+    ],
+    [
+      "13",
+      1220426.0699999474
+    ],
+    [
+      "14",
+      1119717.3399999898
+    ],
+    [
+      "15",
+      1274031.6499998556
+    ],
+    [
+      "16",
+      708699.8100000498
+    ],
+    [
+      "17",
+      440964.88000001956
+    ],
+    [
+      "18",
+      139079.12000000104
+    ],
+    [
+      "19",
+      49098.65999999988
+    ],
+    [
+      "20",
+      18831.03000000004
+    ]
+  ],
+  "top_revenue": [
+    {
+      "code": "22423",
+      "description": "REGENCY CAKESTAND 3 TIER",
+      "revenue": 174156.54000000024
+    },
+    {
+      "code": "23843",
+      "description": "PAPER CRAFT , LITTLE BIRDIE",
+      "revenue": 168469.6
+    },
+    {
+      "code": "85123A",
+      "description": "CREAM HANGING HEART T-LIGHT HOLDER",
+      "revenue": 104462.74999999838
+    },
+    {
+      "code": "47566",
+      "description": "PARTY BUNTING",
+      "revenue": 99445.23000000052
+    },
+    {
+      "code": "85099B",
+      "description": "JUMBO BAG RED RETROSPOT",
+      "revenue": 94159.8100000021
+    },
+    {
+      "code": "23166",
+      "description": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "revenue": 81700.92000000007
+    },
+    {
+      "code": "23084",
+      "description": "RABBIT NIGHT LIGHT",
+      "revenue": 66870.03000000028
+    },
+    {
+      "code": "22086",
+      "description": "PAPER CHAIN KIT 50'S CHRISTMAS",
+      "revenue": 64875.589999999946
+    },
+    {
+      "code": "84879",
+      "description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "revenue": 58927.61999999955
+    },
+    {
+      "code": "79321",
+      "description": "CHILLI LIGHTS",
+      "revenue": 54096.359999999964
+    }
+  ],
+  "top_quantity": [
+    {
+      "code": "23843",
+      "description": "PAPER CRAFT , LITTLE BIRDIE",
+      "units": 80995.0
+    },
+    {
+      "code": "23166",
+      "description": "MEDIUM CERAMIC TOP STORAGE JAR",
+      "units": 78033.0
+    },
+    {
+      "code": "22197",
+      "description": "POPCORN HOLDER",
+      "units": 56898.0
+    },
+    {
+      "code": "84077",
+      "description": "WORLD WAR 2 GLIDERS ASSTD DESIGNS",
+      "units": 54951.0
+    },
+    {
+      "code": "85099B",
+      "description": "JUMBO BAG RED RETROSPOT",
+      "units": 48371.0
+    },
+    {
+      "code": "85123A",
+      "description": "CREAM HANGING HEART T-LIGHT HOLDER",
+      "units": 37641.0
+    },
+    {
+      "code": "21212",
+      "description": "PACK OF 72 RETROSPOT CAKE CASES",
+      "units": 36396.0
+    },
+    {
+      "code": "84879",
+      "description": "ASSORTED COLOUR BIRD ORNAMENT",
+      "units": 36362.0
+    },
+    {
+      "code": "23084",
+      "description": "RABBIT NIGHT LIGHT",
+      "units": 30739.0
+    },
+    {
+      "code": "22492",
+      "description": "MINI PAINT SET VINTAGE",
+      "units": 26633.0
+    }
+  ],
+  "products_intersection": 6,
+  "top10_customer_contribution": 14.831315285605099,
+  "stats": {
+    "Quantity": {
+      "n": 522568,
+      "media": 10.642475237672418,
+      "mediana": 4.0,
+      "sd": 156.58979358709215,
+      "min": 1.0,
+      "q1": 1.0,
+      "q3": 12.0,
+      "max": 80995.0,
+      "asimetria": 468.8174902197077
+    },
+    "UnitPrice": {
+      "n": 522568,
+      "media": 3.275067665834877,
+      "mediana": 2.08,
+      "sd": 4.39606289738136,
+      "min": 0.04,
+      "q1": 1.25,
+      "q3": 4.13,
+      "max": 649.5,
+      "asimetria": 25.688741699409164
+    },
+    "Revenue": {
+      "n": 522568,
+      "media": 19.610663358644235,
+      "mediana": 9.9,
+      "sd": 269.9306116733919,
+      "min": 0.06,
+      "q1": 3.9,
+      "q3": 17.7,
+      "max": 168469.6,
+      "asimetria": 515.9649045685642
+    }
+  },
+  "invoice_stats": {
+    "n": 19773,
+    "media": 518.2777084913772,
+    "mediana": 302.2,
+    "sd": 1764.1193424539574,
+    "min": 0.38,
+    "q1": 151.67999999999998,
+    "q3": 481.49000000000007,
+    "max": 168469.6,
+    "asimetria": 52.87671047180005
+  },
+  "correlation": [
+    [
+      0.9999999999999998,
+      -0.022145028305687448,
+      0.9156155410800074
+    ],
+    [
+      -0.022145028305687448,
+      1.0,
+      0.061284251627758475
+    ],
+    [
+      0.9156155410800073,
+      0.06128425162775848,
+      1.0
+    ]
+  ],
+  "customer_count": 4334,
+  "customer_max_revenue": 279138.01999999984
+}

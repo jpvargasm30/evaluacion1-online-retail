@@ -1,0 +1,124 @@
+  1. "InvoiceNo"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         25900
+	Longest value:         7 characters
+	Most common values:    573585 (1114x)
+	                       581219 (749x)
+	                       581492 (731x)
+	                       580729 (721x)
+	                       558475 (705x)
+
+  2. "StockCode"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         4070
+	Longest value:         12 characters
+	Most common values:    85123A (2313x)
+	                       22423 (2203x)
+	                       85099B (2159x)
+	                       47566 (1727x)
+	                       20725 (1639x)
+
+  3. "Description"
+
+	Type of data:          Text
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       540455
+	Unique values:         4224
+	Longest value:         35 characters
+	Most common values:    WHITE HANGING HEART T-LIGHT HOLDER (2369x)
+	                       REGENCY CAKESTAND 3 TIER (2200x)
+	                       JUMBO BAG RED RETROSPOT (2159x)
+	                       PARTY BUNTING (1727x)
+	                       LUNCH BAG RED RETROSPOT (1638x)
+
+  4. "Quantity"
+
+	Type of data:          Number
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         722
+	Smallest value:        -80995
+	Largest value:         80995
+	Sum:                   5176450
+	Mean:                  9.552
+	Median:                3
+	StDev:                 218.081
+	Most decimal places:   0
+	Most common values:    1 (148227x)
+	                       2 (81829x)
+	                       12 (61063x)
+	                       6 (40868x)
+	                       4 (38484x)
+
+  5. "InvoiceDate"
+
+	Type of data:          DateTime
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         23260
+	Smallest value:        2010-12-01 08:26:00
+	Largest value:         2011-12-09 12:50:00
+	Most common values:    2011-10-31 14:41:00 (1114x)
+	                       2011-12-08 09:28:00 (749x)
+	                       2011-12-09 10:03:00 (731x)
+	                       2011-12-05 17:24:00 (721x)
+	                       2011-06-29 15:58:00 (705x)
+
+  6. "UnitPrice"
+
+	Type of data:          Number
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         1630
+	Smallest value:        -11062.06
+	Largest value:         38970
+	Sum:                   2498803.974
+	Mean:                  4.611
+	Median:                2.08
+	StDev:                 96.76
+	Most decimal places:   3
+	Most common values:    1.25 (50496x)
+	                       1.65 (38181x)
+	                       0.85 (28497x)
+	                       2.95 (27768x)
+	                       0.42 (24533x)
+
+  7. "CustomerID"
+
+	Type of data:          Number
+	Contains null values:  True (excluded from calculations)
+	Non-null values:       406829
+	Unique values:         4373
+	Smallest value:        12346
+	Largest value:         18287
+	Sum:                   6219475867
+	Mean:                  15287.691
+	Median:                15152
+	StDev:                 1713.6
+	Most decimal places:   0
+	Most common values:    None (135080x)
+	                       17841 (7983x)
+	                       14911 (5903x)
+	                       14096 (5128x)
+	                       12748 (4642x)
+
+  8. "Country"
+
+	Type of data:          Text
+	Contains null values:  False
+	Non-null values:       541909
+	Unique values:         38
+	Longest value:         20 characters
+	Most common values:    United Kingdom (495478x)
+	                       Germany (9495x)
+	                       France (8557x)
+	                       EIRE (8196x)
+	                       Spain (2533x)
+
+Row count: 541909

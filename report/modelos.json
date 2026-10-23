@@ -1,0 +1,40 @@
+{
+  "n_train": 3033,
+  "n_test": 1301,
+  "metrics": [
+    {
+      "modelo": "Base: media de entrenamiento",
+      "objetivo": "Original",
+      "MAE": 2338.5265375463796,
+      "R2": -0.0001836655042741775
+    },
+    {
+      "modelo": "A: Facturas + Productos",
+      "objetivo": "Original",
+      "MAE": 1464.324270578255,
+      "R2": 0.3038999254611817
+    },
+    {
+      "modelo": "A: Facturas + Productos",
+      "objetivo": "log(1+Ingreso)",
+      "MAE": 837643522.8616904,
+      "R2": -8109659353967.761
+    },
+    {
+      "modelo": "B: EsUK + MesPrimeraCompra",
+      "objetivo": "Original",
+      "MAE": 2350.9576574125113,
+      "R2": 0.007439235822930046
+    },
+    {
+      "modelo": "B: EsUK + MesPrimeraCompra",
+      "objetivo": "log(1+Ingreso)",
+      "MAE": 1824.6862404154188,
+      "R2": -0.016139243328650243
+    }
+  ],
+  "test_max": 259657.3,
+  "test_median": 632.07,
+  "test_mean": 2116.500730207533,
+  "top1pct_test_income_share": 37.30423200637413
+}
